@@ -50,7 +50,7 @@ telemetry-collector collect \
 |url|Ops Manager URL|
 |username|Ops Manager username|
 |password|Ops Manager password|
-|env-type|The following type of environment<br>sandbox<br>development<br>qa<br>pre-production<br>production|
+|env-type|The following type of `environment`<br>`sandbox`<br>`development`<br>`qa`<br>`pre-production`<br>`production`|
 |cf-api-url|Foundation’s UAA URL|
 |usage-service-url|Usage Service URL<br>Sample: `https://app-usage.YOUR-SYSTEM-DOMAIN`|
 |usage-service-client-id|Usage Service client ID|
