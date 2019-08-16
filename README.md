@@ -72,6 +72,13 @@ telemetry-collector collect \
   --usage-service-insecure-skip-tls-verify
 ```
 
+### Usage Service Client Secret
+
+![](images/telemetry-01.png)
+![](images/telemetry-02.png)
+![](images/telemetry-03.png)
+![](images/telemetry-04.png)
+
 ## Installation
 
 ## Licence
