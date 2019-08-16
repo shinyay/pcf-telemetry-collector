@@ -6,7 +6,7 @@ Pivotal Telemetry Collector is an automated tool that collects data from a serie
 - Optional certificate data from the CredHub API.
 - Optional app, task and service instance usage data from the Usage Service API.
 
-- [Document](https://docs.pivotal.io/telemetry/1-0/index.html)
+[Document](https://docs.pivotal.io/telemetry/1-0/index.html)
 
 ## Description
 
@@ -20,6 +20,12 @@ Pivotal Telemetry Collector is an automated tool that collects data from a serie
 ## Requirement
 
 ## Usage
+
+### Install
+
+- Download Pivotal Telemetry Collector CLI binary
+  - https://network.pivotal.io/products/pivotal-telemetry-collector/
+- Add the binary to `$PATH`
 
 ## Installation
 
