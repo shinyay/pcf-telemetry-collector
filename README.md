@@ -32,13 +32,44 @@ Pivotal Telemetry Collector is an automated tool that collects data from a serie
 
 ```
 telemetry-collector collect \
+  --url OPSMAN_URL \
+  --username OPSMAN_USERID \
+  --password OPSMAN_PASSWD \
+  --env-type FOUNDATION_TYPE \
+  --cf-api-url API_URL \
+  --usage-service-url APP_USAGE_URL \
+  --usage-service-client-id usage_service \
+  --usage-service-client-secret APP_USAGE_SECRET \
+  --output-dir OUTPUT_DIRECTORY \
+  --insecure-skip-tls-verify \
+  --usage-service-insecure-skip-tls-verify
+```
+
+|OPTION-FLAG|DESCRIPTION|
+|-----------|-----------|
+|url||
+|username||
+|password||
+|env-type||
+|cf-api-url||
+|usage-service-url||
+|usage-service-client-id||
+|usage-service-client-secret||
+|usage-service-insecure-skip-tls-verify||
+
+```
+telemetry-collector collect \
   --url https://pcf.pivotal.syanagihara.cf \
   --username admin \
   --password admin \
   --env-type development \
   --cf-api-url https://api.sys.pivotal.syanagihara.cf \
   --usage-service-url https://app-usage.sys.pivotal.syanagihara.cf \
-  --usage-service-client-id usage_service --usage-service-client-secret XnVoUR_9F_oEdYyvYzMJQxd-BcHpRetn --output-dir output --insecure-skip-tls-verify --usage-service-insecure-skip-tls-verify
+  --usage-service-client-id usage_service \
+  --usage-service-client-secret XnVoUR_9F_oEdYyvYzMJQxd-BcHpRetn \
+  --output-dir output \
+  --insecure-skip-tls-verify \
+  --usage-service-insecure-skip-tls-verify
 ```
 
 ## Installation
