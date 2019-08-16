@@ -47,14 +47,16 @@ telemetry-collector collect \
 
 |OPTION-FLAG|DESCRIPTION|
 |-----------|-----------|
-|url||
-|username||
-|password||
-|env-type||
-|cf-api-url||
-|usage-service-url||
-|usage-service-client-id||
-|usage-service-client-secret||
+|url|Ops Manager URL|
+|username|Ops Manager username|
+|password|Ops Manager password|
+|env-type|The following type of environment<br>sandbox<br>development<br>qa<br>pre-production<br>production|
+|cf-api-url|Foundation’s UAA URL|
+|usage-service-url|Usage Service URL<br>Sample: `https://app-usage.YOUR-SYSTEM-DOMAIN`|
+|usage-service-client-id|Usage Service client ID|
+|usage-service-client-secret|Usage Service client secret<br>See Usage Service Client Secret|
+|output-dir|Local directory to write the output tar file|
+|insecure-skip-tls-verify|Skips TLS validation on HTTP request to Ops Manager|
 |usage-service-insecure-skip-tls-verify||
 
 ### Usage Service Client Secret
