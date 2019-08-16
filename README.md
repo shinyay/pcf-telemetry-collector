@@ -26,6 +26,20 @@ Pivotal Telemetry Collector is an automated tool that collects data from a serie
 - Download Pivotal Telemetry Collector CLI binary
   - https://network.pivotal.io/products/pivotal-telemetry-collector/
 - Add the binary to `$PATH`
+  - `$ cp telemetry-collector-darwin-amd64 /usr/local/bin/telemetry-collector`
+
+### Use Pivotal Telemetry Collector CLI
+
+```
+telemetry-collector collect \
+  --url https://pcf.pivotal.syanagihara.cf \
+  --username admin \
+  --password admin \
+  --env-type development \
+  --cf-api-url https://api.sys.pivotal.syanagihara.cf \
+  --usage-service-url https://app-usage.sys.pivotal.syanagihara.cf \
+  --usage-service-client-id usage_service --usage-service-client-secret XnVoUR_9F_oEdYyvYzMJQxd-BcHpRetn --output-dir output --insecure-skip-tls-verify --usage-service-insecure-skip-tls-verify
+```
 
 ## Installation
 
